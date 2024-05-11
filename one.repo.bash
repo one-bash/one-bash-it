@@ -10,7 +10,7 @@ repo_update() {
   git -C bash-it pull
 }
 
-repo_load() {
+repo_onload() {
   # shellcheck source=./bash-it/bash_it.sh
   _one_load "$CUR_REPO_DIR"/bash-it/bash_it.sh
 }
